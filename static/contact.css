@@ -1,0 +1,52 @@
+.down-inside-cont{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.down-wrapper{
+    position: relative;
+}
+.contact-title{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 0px 5px rgb(30, 30, 243);
+}
+.social-media{
+    height: 100px;
+    width: 100px;
+}
+.contact-details-cont{
+    margin-bottom: 40px;
+}
+.links{
+    text-decoration: none;
+    width: fit-content;
+}
+.link-title{
+    text-shadow: 0px 2px rgb(10, 10, 97);
+}
+.anime-down{
+    animation: fade-down 1.5s;
+    transition: 2s;
+}
+@media (max-width: 1000px) {
+    .links{
+        cursor: default;
+    }
+}
+@media (min-width: 1000px) {
+    .down-inside-cont{
+        width: 80vw;
+    }
+    .social-media{
+        margin-right: 20px;
+    }
+}
+@keyframes fade-down {
+    0%{
+        top: 50vh;
+    }
+    100%{
+        top: 0vh;
+    }
+}

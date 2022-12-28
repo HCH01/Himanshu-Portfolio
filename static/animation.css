@@ -1,0 +1,103 @@
+
+.z{
+    z-index: 10 !important;
+}
+.AnimeDown{
+    animation: down 1.5s forwards;
+}
+@keyframes down {
+    0%{
+        bottom: 0;
+    }
+    100%{
+        bottom: 100vh;
+    }
+}
+.AnimeLeft{
+    animation: left 1.5s forwards;
+}
+@keyframes left {
+    0%{
+        bottom: 200vh;
+        right: 250vh;
+    }
+    100%{
+        bottom: 200vh;
+        right: 0;
+    }
+}
+.AnimeRight{
+    animation: right 1.5s forwards;
+}
+@keyframes right {
+    0%{
+        bottom: 300vh;
+        left: 250vh;
+    }
+    100%{
+        bottom: 300vh;
+        left: 0;
+    }
+}
+.AnimeTop{
+    animation: top 1.5s forwards;
+}
+@keyframes top {
+    0%{
+        bottom: 150vh;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+@media (max-width:480px) {
+    
+    .AnimeDown{
+        animation: down 1.5s forwards;
+    }
+    @keyframes down {
+        0%{
+            bottom: 0;
+        }
+        100%{
+            bottom: 100vh;
+        }
+    }
+    .AnimeLeft{
+        animation: left 1.5s forwards;
+    }
+    @keyframes left {
+        0%{
+            bottom: 200vh;
+            right: 100vw;
+        }
+        100%{
+            bottom: 200vh;
+            right: 0;
+        }
+    }
+    .AnimeRight{
+        animation: right 1.5s forwards;
+    }
+    @keyframes right {
+        0%{
+            bottom: 300vh;
+            left: 100vw;
+        }
+        100%{
+            bottom: 300vh;
+            left: 0;
+        }
+    }
+    .AnimeTop{
+        animation: top 1.5s forwards;
+    }
+    @keyframes top {
+        0%{
+            bottom: 150vh;
+        }
+        100%{
+            bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.left-cont{
+    height: 75vh;
+    width: 100vw;
+}
+.left-inside-cont{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    text-shadow: 0px 5px rgb(5, 5, 83);
+}
+.about-logo{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.about-text{
+    font-size: 25px;
+    padding: 20px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border-radius: 20px 20px;
+    box-shadow: 0px 0px 10px gray;
+    text-shadow: 0px 2px rgb(5, 5, 83);
+}
+.anime-left{
+    animation: fade-left 1.5s;
+    transition: 2s;
+}
+@media (max-width:1000px) {
+    .about-logo{
+        margin-bottom: 30px;
+    }
+    .about-text{
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+@keyframes fade-left {
+    0%{
+        opacity: 0%;
+        right: 50vw;
+    }
+    100%{
+        opacity: 100%;
+        right: 0vw;
+    }
+}

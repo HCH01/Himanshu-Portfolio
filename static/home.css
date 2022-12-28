@@ -1,0 +1,68 @@
+.top-cont{
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    font-family: 'Archivo Black', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-title{
+    width: 60vw;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(245, 240, 242);
+    text-shadow: 0px 5px #660b2f;
+    margin-top: 20px;
+}
+.top-inside-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.small-text{
+    font-size: 20px;
+    color: #ebc1d4;
+    text-shadow: 0px 2px #580d30;
+}
+.profile-pic{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: rgb(51, 51, 146);
+    border-radius: 110px 110px;
+    box-shadow: 0px 5px #660b2f;
+    background-image: url('../pics/Snapchat-1884897504.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.anime-top{
+    animation: fade 1.2s;
+    transition: 2s;
+}
+@media (max-width: 1150px) {
+    .profile-pic{
+        border: 1px solid rgb(116, 15, 70);
+    }
+    .top-title{
+        font-size: 30px;
+        width: 80vw;
+    }
+    .small-text{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+@keyframes fade {
+    0%{
+        bottom: 20vh;
+        opacity: 0%;
+    }
+    100%{
+        bottom: 0vh;
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Portfolio</title>
+    <link rel="stylesheet" href="static/portfolioCss.css">
+    <link rel="stylesheet" href="static/animation.css">
+    <link rel="stylesheet" href="static/navigator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="static/home.css">
+    <link rel="stylesheet" href="static/about.css">
+    <link rel="stylesheet" href="static/skills.css">
+    <link rel="stylesheet" href="static/contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<style>
+    #parent {
+        overflow: hidden;
+        height: 100vh;
+    }
+</style>
+
+<body>
+    <div id="parent">
+        <div class="container">
+            <div class="frame" id="top">
+                <div class="top-cont frame-cont">
+                    <div class="top-inside-cont">
+                        <div class="profile-pic"></div>
+                        <div class="top-title">Hi,<br> I'm Himanshu Chaudhary<br>
+                            <p class="small-text">I'm frontend and backend developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frame" id="down">
+                <div class="down-cont frame-cont">
+                    <div class="down-inside-cont">
+                        <div class="contact-title">Get in touch</div>
+                        <div class="down-wrapper">
+                            <div class="contact-details-cont">
+                                <div class="link-title" style="margin-bottom: 10px;">Contact me</div>
+                                <a class="links" target="_blank" href="https://www.instagram.com/him.chaudhary212/"><img
+                                        class="social-media" title="Instagram" src="pics/pngwing.com.png"
+                                        alt="insta"></a>
+                                <a class="links" target="_blank"
+                                    href="https://www.linkedin.com/in/himanshu-chaudhary-0388b5246/"><img
+                                        class="social-media" title="LinkedIn" src="pics/linkdin.png" alt="linkedin"></a>
+                                <a class="links" target="_blank" href="mailto: him.chaudhary212@gmail.com"><img
+                                        class="social-media" title="him.chaudhary212@gmail.com" src="pics/gmail.png"
+                                        alt="linkedin"></a>
+                            </div>
+                            <div class="link-title">Projects</div><a class="links" target="_blank"
+                                href="https://github.com/HCH01">
+                                <img class="social-media" title="GitHub" src="pics/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frame" id="left">
+                <div class="left-cont frame-cont">
+                    <div class="left-inside-cont">
+                        <div class="about-logo">About me</div>
+                        <div class="about-text">Hi I'm Himanshu Chaudhary, I'm currently pursuing my b.tech with
+                            computer science and engineering from Raj Kumar Goel Institute of Technology, Ghaziabad. I
+                            like to desgin web pages and love to code for backend. I'm a calm and logical person. In my
+                            free time I like to draw something and learn about new technologies.<br><br>I'm always
+                            curious to learn about new things :)</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="frame" id="right">
+                <div class="right-cont frame-cont">
+                    <div class="right-inside-cont">
+                        <div class="skill-title">My Skills</div>
+                        <div class="skill-progress-bars">
+                            <div class="skill-opt">
+                                <p class="lang">Python</p>
+                                <div class="progress-bar">
+                                    <div class="indicator" id="py-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-opt">
+                                <p class="lang">C++</p>
+                                <div class="progress-bar">
+                                    <div class="indicator" id="cpp-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-opt">
+                                <p class="lang">JavaScript</p>
+                                <div class="progress-bar">
+                                    <div class="indicator" id="Js-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-opt">
+                                <p class="lang">SQL</p>
+                                <div class="progress-bar">
+                                    <div class="indicator" id="sql-bar"></div>
+                                </div>
+                            </div>
+                            <div class="skill-opt">
+                                <p class="lang">HTML5/CSS</p>
+                                <div class="progress-bar">
+                                    <div class="indicator" id="html-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-box" id="navbar">
+            <div class="nav-text1 centre">
+                <div class="nav-opt" id="nav-top">Home</div>
+            </div>
+            <div class="nav-text2 centre">
+                <div class="nav-opt" id="nav-left">About</div>
+            </div>
+            <div class="icon-box">
+                <div class="circles-cont">
+                    <div class="circle" id="crl-top"></div>
+                </div>
+                <div class="circles-cont">
+                    <div class="circle" id="crl-right"></div>
+                </div>
+                <div class="circles-cont">
+                    <div class="circle" id="crl-left"></div>
+                </div>
+                <div class="circles-cont">
+                    <div class="circle" id="crl-down"></div>
+                </div>
+            </div>
+            <div class="nav-text2 centre">
+                <div class="nav-opt" id="nav-right">Skills</div>
+            </div>
+            <div class="nav-text1 centre">
+                <div class="nav-opt" id="nav-down">Contact</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
