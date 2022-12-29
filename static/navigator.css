@@ -38,7 +38,6 @@
 .icon-box {
     height: 50px;
     width: 50px;
-    /* background-color: blueviolet; */
     align-self: center;
     transform: rotate(45deg);
     display: flex;
@@ -48,9 +47,6 @@
 .circles-cont {
     height: 25px;
     width: 25px;
-    /* background-color: aqua; */
-    /* border-radius: 100px 100px; */
-    /* margin: 2px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,12 +78,6 @@
     color: rgb(129, 127, 127);
     cursor: default;
 }
-/* #nav-down{
-    bottom: 3px;
-}
-#nav-right{
-    /* bottom: 3px; */
-/* } */
 .text-focus-1{
     font-size: 25px;
     position: relative;
@@ -113,11 +103,6 @@
     margin-left: 30px;
     margin-bottom: 10px;
 }
-
-/* #nav-left{
-    margin-bottom: 5px;
-} */
-
 .text-focus-3{
     margin-right: 30px;
     margin-bottom: 15px;
