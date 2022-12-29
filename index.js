@@ -129,6 +129,7 @@ const leftSwipe = ()=>{
             removeClassTxt(document.getElementById('nav-top'),'4');
             removeClassCir(document.getElementById('crl-top'));
             top_cont.classList.remove('anime-top');
+            document.querySelector('.profile-pic').classList.remove('anime-top');
         }
         else if (flags['right']) {
             flags['right'] = false;
@@ -167,6 +168,7 @@ const rightSwipe = ()=>{
             removeClassCir(document.getElementById('crl-top'));
             removeClassTxt(document.getElementById('nav-top'),'4');
             top_cont.classList.remove('anime-top');
+            document.querySelector('.profile-pic').classList.remove('anime-top');
         }
         else if (flags['left']) {
             flags['left'] = false;
@@ -190,7 +192,8 @@ const upSwipe = ()=>{
         flags['Top'] = true;
         addClassTxt(document.getElementById('nav-top'),'4');
         addClassCir(document.getElementById('crl-top'))
-        setTimeout(()=>{top_cont.classList.add('anime-top');console.log('inside')},500)
+        setTimeout(()=>{top_cont.classList.add('anime-top');},500)
+        setTimeout(()=>{document.querySelector('.profile-pic').classList.add('anime-top');},600)
         if (flags['right']) {
             flags['right'] = false;
             Anime('AnimeRight', right, Top, right, down, left, 'AnimeTop');
@@ -244,6 +247,7 @@ const downSwipe = ()=>{
             removeClassTxt(document.getElementById('nav-top','4'))
             removeClassCir(document.getElementById('crl-top'));
             top_cont.classList.remove('anime-top');
+            document.querySelector('.profile-pic').classList.remove('anime-top');
         }
     }
 }
