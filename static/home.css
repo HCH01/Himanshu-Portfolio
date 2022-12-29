@@ -38,7 +38,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 .anime-top{
     animation: fade 1.2s;
@@ -47,6 +46,7 @@
 @media (max-width: 1150px) {
     .profile-pic{
         border: 1px solid rgb(116, 15, 70);
+        position: relative;
     }
     .top-title{
         font-size: 30px;
