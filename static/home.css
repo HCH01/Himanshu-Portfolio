@@ -38,6 +38,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .anime-top{
     animation: fade 1.2s;
