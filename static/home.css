@@ -94,10 +94,10 @@
 @keyframes fade {
     0%{
         bottom: 20vh;
-        opacity: 0%;
+        
     }
     100%{
         bottom: 0vh;
-        opacity: 100%;
+        
     }
 }
