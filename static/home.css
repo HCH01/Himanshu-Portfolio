@@ -106,5 +106,6 @@
         background-size: 222px;
         bottom: 256vh;
         right: 1018px;    
+        animation: stars 210s infinite linear;
     }
 }
