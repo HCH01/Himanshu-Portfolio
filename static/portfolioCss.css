@@ -32,28 +32,28 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 1;
+    z-index: 5;
 }
 #down{
     background-image: url('../pics/down.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 2;
+    z-index: 6;
 }
 #left{
     background-image: url('../pics/left3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 3;
+    z-index: 7;
 }
 #right{
     background-image: url('../pics/right.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 4;
+    z-index: 8;
 }
 
 
