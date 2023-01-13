@@ -101,3 +101,10 @@
         
     }
 }
+@media (max-width: 400px){
+    .stars-wrap{
+        background-size: 222px;
+        bottom: 256vh;
+        right: 1018px;    
+    }
+}
