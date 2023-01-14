@@ -43,19 +43,6 @@
     animation: fade 1.2s;
     transition: 2s;
 }
-.trans-frame{
-    height: 100vh;
-    width: 100vw;
-    background-image: url('../pics/trans-top.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-.wrapper{
-    overflow: hidden;
-}
 .stars-wrap{
     height: 2500px;
     width: 2502px;
@@ -69,6 +56,20 @@
     animation: stars 300s infinite linear;
     z-index: 1;
 }
+.trans-frame{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../pics/trans-top.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.wrapper{
+    overflow: hidden;
+}
+
 @keyframes stars {
     from{
         transform: rotate(360deg);
