@@ -18,7 +18,7 @@ const flags = {
     right: false,
     left: false
 }
-setTimeout(()=>{document.getElementById('stars').classList.add('stars-wrap')},2000);
+setTimeout(()=>{document.getElementById('stars').classList.add('stars-wrap')},1000);
 function Add(animeName, animeName1, animeName2, animeName3, addAnimeClass) {
     animeName.classList.add("z");
     animeName.classList.add(addAnimeClass);
