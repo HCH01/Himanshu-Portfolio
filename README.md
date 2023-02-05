@@ -10,3 +10,4 @@ It have 3 ways to slide to new page:
 1. By swiping (for mobile)
 2. By clicking on nagvicator's options
 3. By clicking arrow keys (for PC)
+Phle open kr uska status kr ki open ha than close krde
