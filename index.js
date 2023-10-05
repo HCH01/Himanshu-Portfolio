@@ -63,7 +63,6 @@ parent_cont.addEventListener("touchstart", (e) => {
         Xstart = touch.pageX;
         Ystart = touch.pageY;
     })
-    
 })
 parent_cont.addEventListener("touchend", (e) => {
     [...e.changedTouches].forEach((touch) => {
@@ -75,7 +74,7 @@ parent_cont.addEventListener("touchend", (e) => {
                 else if(Xstart - touch.pageX > 50){
                     rightSwipe();
                 }
-            }else{
+            }else {
                 if(Ystart - touch.pageY < -50){
                     upSwipe();
                 }
@@ -394,4 +393,7 @@ const removeClassCir = (ele)=>{
             else if(ele.id.slice(4)==='top'){
                 document.getElementById('nav-' + ele.id.slice(4)).classList.remove('text-focus-4-click')
             }
+}
+if(window.innerWidth < 531){
+    document.querySelector('.about-text').textContent = "I am a developer proficient in both frontend and backend technologies. On the frontend, I create captivating user interfaces, ensuring responsiveness and pixel-perfect design. On the backend, I architect efficient systems. My problem-solving abilities and dedication to clean code make me a valuable asset in delivering innovative solutions.I am always excited to learn new skills :))";
 }
