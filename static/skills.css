@@ -18,14 +18,14 @@
 }
 .progress-bar{
     width: 60vw;
-    height: 30px;
+    height: 35px;
     background-color: #680d89;
     margin-left: 80px;
     border-radius: 20px 20px;
 }
 .skill-opt{
     display: flex;
-    height: 30px;
+    height: 50px;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -50,23 +50,31 @@
     transition: 2s;
 }
 #py-bar{
-    --i: 55%;
-}
-#cpp-bar{
     --i: 65%;
 }
-#Js-bar{
-    --i: 63%;
+#cpp-bar{
+    --i: 75%;
 }
-#sql-bar{
-    --i: 50%;
+#Js-bar{
+    --i: 82%;
+}
+#flutter-bar{
+    --i: 70%;
 }
 #html-bar{
-    --i: 69%;
+    --i: 76%;
 }
+#node-bar{
+    --i: 80%;
+}
+#mongo-bar{
+    --i: 65%;
+}
+
 @media (max-width:1000px) {
     .progress-bar{
         width: 40vw;
+        height: 25px;
         margin-left: 20px;
     }
 }

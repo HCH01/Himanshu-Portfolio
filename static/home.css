@@ -31,13 +31,14 @@
     height: 200px;
     width: 200px;
     margin: auto;
-    background-color: rgb(51, 51, 146);
+    background-color: rgba(136, 8, 55, 0.2);
     border-radius: 110px 110px;
     box-shadow: 0px 5px #660b2f;
-    background-image: url('../pics/Snapchat-1884897504.jpg');
+    background-image: url('../pics/profile-removebg-preview.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position-y: 0px;
+    background-size: 90%;
 }
 .anime-top{
     animation: fade 1.2s;
