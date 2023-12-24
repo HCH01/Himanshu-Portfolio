@@ -1,0 +1,236 @@
+:root{
+    --col-1: black;
+    --col-2: black;
+    --col-3: black;
+}
+.content{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background:url('https://i.pinimg.com/564x/79/2b/5b/792b5bfeb5dc2ab32ce0335e12d1e92d.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.present-box{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#santa{
+    width: 200vw;
+    height: 200px;
+    position: relative;
+    filter: brightness(0);
+    position: relative;
+    left: 100%;
+    display: flex;
+    bottom: 3%;
+}
+.santa-ride{
+    animation: ride 8s forwards linear;
+}
+@keyframes ride {
+    0%{
+        left: 100%;
+    }
+    90%{
+        
+        left: -100%;
+        filter: brightness(0);
+    }
+    100%{
+        left: -100%;
+        filter: brightness(1);
+    }
+}
+.fade-animation{
+    animation: fade 0.5s forwards linear;
+}
+@keyframes fade {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+        display: none;
+    }
+}
+.tree-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    transform: translateY(100%);
+}
+.tree-up{
+    animation: come-up 3s forwards linear;
+}
+.name{
+    font-size: 2.1rem;
+    position: relative;
+}
+.payal{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%; 
+    text-align: center;
+    font-family: 'Pacifico';
+    font-size: 3rem;
+    font-weight: 500;
+    transition: 1s;
+}
+.glow-text{
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 0px 10px #fbe8b7;
+}
+.half{
+    width: 50%;
+}
+.mry{
+    height: 200px;
+    width: 100%;
+}
+.tree{
+    height: 60%;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(1.3);
+    bottom: 10%;
+    filter: brightness(0);
+    transition: 1s;
+}
+.glow-tree{
+    filter: brightness(1);
+    -webkit-filter: drop-shadow(0px 0px 3px #ebdc09);
+  filter: drop-shadow(0px 0px 3px #ebdc09);
+}
+.star{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55%);
+    top: 18%;
+}
+.star img{
+    width: 100px;
+    filter: brightness(0);
+}
+.glow-star{
+    -webkit-filter: drop-shadow(0px 0px 10px #ebdc09);
+  filter: drop-shadow(0px 0px 10px #ebdc09);
+}
+.glow-star img{
+    filter: brightness(1);
+}
+.bulb div{
+    border-radius: 50% 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    box-shadow: 0px 0px 3px 5px var(--col);
+}
+.bulb div:nth-child(1){
+    background-color: var(--col-1);
+    top: 45%;
+    left: 27%;
+    animation: light-up 5s linear forwards 1s;
+    box-shadow: 0px 0px 3px 5px var(--col-1);
+}
+.bulb div:nth-child(2){
+    background-color: var(--col-1);
+    top: 45%;
+    left: 61%;
+    box-shadow: 0px 0px 3px 5px var(--col-1);
+}
+.bulb div:nth-child(3){
+    background-color: var(--col-2);
+    top: 62%;
+    left: 18%;
+    box-shadow: 0px 0px 3px 5px var(--col-2);
+}
+.bulb div:nth-child(4){
+    background-color: var(--col-2);
+    top: 62%;
+    left: 73%;
+    box-shadow: 0px 0px 3px 5px var(--col-2);
+}
+.bulb div:nth-child(5){
+    background-color: var(--col-3);
+    top: 80%;
+    left: 10%;
+    box-shadow: 0px 0px 3px 5px var(--col-3);
+}
+.bulb div:nth-child(6){
+    background-color: var(--col-3);
+    top: 80%;
+    left: 83%;
+    box-shadow: 0px 0px 3px 5px var(--col-3);
+}
+.heart{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 55%;
+    filter: brightness(0);
+    transition: 1s;
+}
+.glow-heart{
+    filter: brightness(1);
+    -webkit-filter: drop-shadow(0px 0px 10px #cf3806dd);
+    filter: drop-shadow(0px 0px 10px #cf3806dd);
+}
+@keyframes come-up {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.voice-present{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 55%;
+    left: 100%;
+}
+.v-anime{
+    animation: r-l 1s linear forwards;
+}
+@keyframes r-l {
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 70%;
+    }
+}
+
+.caution{
+    display: none;
+}
+@media screen and (min-width: 600px) {
+    .container{
+        display: none;
+    }
+    .caution{
+        display: block;
+    }
+}

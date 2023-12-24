@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+}
+.f-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-75{
+    width: 75%;
+}
+.t-center{
+    text-align: center;
+}
+.box{
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.h-100{
+    height: 100px;
+}
+.h-150{
+    height: 150px;
+}
+.h-200{
+    height: 200px;
+}
+.h-500{
+    height: 500px;
+}
+.h-200{
+    height: 200px;
+}
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.bg-org{
+    background-color: #ff6204;
+}
+.bg-black{
+    background-color: #17242f;
+    color: white;
+}
+.bg-gray{
+    background-color: rgb(227, 222, 222);
+}
+.bg-l-blue{
+    background-color: rgb(203, 229, 245);
+}
+.t-org{
+    color: rgba(190, 0, 39, 1);
+}
+.p-20{
+    padding: 20px;
+}
+.p-30{
+    padding: 30px;
+}
+.f-w-700{
+    font-weight: 700;
+}
+.f-col{
+    flex-direction: column;
+}
+.w-85{
+    width: 85%;
+}
+.w-70{
+    width: 70%;
+}
+.a-nd{
+    text-decoration: none;
+    color: white;
+}
+.br-50{
+    border-radius: 50px;
+}
+.br-10{
+    border-radius: 10px;
+}
+.w-50{
+    width: 50%;
+}
+.align-center{
+    margin: 0 auto;
+}
+.m-auto{
+    margin: auto;
+}
+.m-b-5{
+    margin-bottom: 5px;
+}
+.f-s-20{
+    font-size: 20px;
+}
+.img-500{
+    height: 500px;
+}
+.f-s-17{
+    font-size: 17px;
+}
+.mtb-10{
+    margin: 10px 0;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.f-w-400{
+    font-weight: 400;
+}
+.f-w-600{
+    font-weight: 600;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.w-75{
+    width: 75%;
+}
+.border{
+    border: 1px solid black;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.f-se{
+    justify-content: space-evenly;
+}
+.f-sb{
+    justify-content: space-between;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.f-align{
+    display: flex;
+    justify-content: center;
+}
+.b-r{
+    border: 1px solid red;
+}
+.b-gray{
+    border: 1px solid rgb(205, 203, 203);
+}
+.br-2{
+    border-radius: 2px;
+}
+.hand-cursor{
+    cursor: pointer;
+}
+.m-5{
+    margin: 5px;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
